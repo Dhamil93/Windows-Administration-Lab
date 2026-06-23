@@ -76,7 +76,6 @@ Example:
 ---
 
 # 🔍 What I Learned
-# 🔍 What I Learned
 
 During this lab I explored Windows Device Manager and gained practical experience identifying and managing hardware devices installed on a Windows computer.
 
