@@ -37,7 +37,7 @@ By completing this lab I will learn how to:
 | Item | Details |
 |------|---------|
 | Operating System | Windows 11 |
-| Device | *(Enter your laptop model)* |
+| Device | *(Swift SF314-42)* |
 | Tool | Windows Device Manager |
 
 ---
