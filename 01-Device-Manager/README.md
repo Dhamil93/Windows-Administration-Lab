@@ -76,18 +76,49 @@ Example:
 ---
 
 # 🔍 What I Learned
+# 🔍 What I Learned
 
-*(You'll complete this after finishing the lab.)*
+During this lab I explored Windows Device Manager and gained practical experience identifying and managing hardware devices installed on a Windows computer.
 
-Example:
+## Hardware Identified
 
-- Device Manager displays all installed hardware.
-- Drivers can be updated or rolled back.
-- Hardware IDs help identify unknown devices.
-- Event history shows driver installations and updates.
-- Device Manager is a primary troubleshooting tool used by IT Support Engineers.
+### Processor
+
+- AMD Ryzen 5 4500U with Radeon Graphics
+
+### Graphics Adapter
+
+- AMD Radeon(TM) Graphics
+
+### Storage
+
+- WDC PC SN530 SDBPNPZ-1T00-1014 NVMe SSD
+
+### Network
+
+- Intel(R) Wi-Fi 6 AX200 160MHz
+- Bluetooth Personal Area Network
+- WAN Miniport Adapters
+- TunnelBear Virtual Adapter
+
+### USB
+
+- USB Root Hub (USB 3.0)
+- USB Composite Device
+- AMD USB 3.10 eXtensible Host Controller
 
 ---
+
+## Key Observations
+
+- Windows successfully detected all installed hardware.
+- No warning icons or hardware errors were present.
+- All major hardware components were functioning correctly.
+- Network adapters included physical, virtual and VPN interfaces.
+- USB devices were managed through Windows USB Controllers.
+
+---
+
 
 # 🛠 Skills Demonstrated
 
@@ -98,6 +129,78 @@ Example:
 - Device Diagnostics
 - Windows 11 Administration
 - Technical Documentation
+
+---
+
+# Technical Analysis
+
+The system contains an AMD Ryzen 5 4500U processor with integrated Radeon Graphics, making it suitable for everyday productivity, virtualization, and IT support labs.
+
+The system uses a Western Digital NVMe SSD, providing fast boot times and improved application performance.
+
+Networking is handled by an Intel Wi-Fi 6 AX200 adapter, supporting modern wireless standards.
+
+The presence of the TunnelBear Virtual Adapter demonstrates how VPN software installs virtual network interfaces within Windows.
+
+No hardware conflicts or driver issues were detected during this inspection.
+---
+
+# Interview Questions
+
+### What is Device Manager?
+
+Device Manager is a Windows administrative tool used to manage hardware devices and device drivers.
+
+---
+
+### Why is Device Manager important?
+
+It allows administrators to:
+
+- Install drivers
+- Update drivers
+- Disable hardware
+- Enable hardware
+- Diagnose hardware issues
+
+---
+
+### What does a yellow warning icon mean?
+
+A driver or hardware problem exists.
+
+---
+
+### What is a Hardware ID?
+
+A unique identifier used by Windows to identify hardware devices and locate the correct driver.
+
+---
+
+### What is a Device Driver?
+
+Software that allows Windows to communicate with hardware devices.
+
+---
+
+# Real World Scenario
+
+A user reports that Wi-Fi is no longer working.
+
+Troubleshooting steps:
+
+1. Open Device Manager.
+2. Expand Network Adapters.
+3. Verify the Wi-Fi adapter appears.
+4. Check for warning icons.
+5. Review Driver Properties.
+6. Update or reinstall the driver if necessary.
+7. Restart the computer.
+8. Test network connectivity.
+
+Result:
+
+This process helps isolate whether the issue is caused by hardware, drivers or Windows configuration.
 
 ---
 
