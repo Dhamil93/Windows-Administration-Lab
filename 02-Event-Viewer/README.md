@@ -52,7 +52,42 @@ Screenshots are stored in the `screenshots` folder.
 
 # Findings
 
-*(Complete this after the investigation.)*
+During the investigation several system events were identified.
+
+## Event 10010
+
+**Source:** DistributedCOM
+
+**Level:** Error
+
+The event indicated that a COM server failed to register within the required timeout period.
+
+This type of event is commonly observed during Windows startup or when applications take longer than expected to initialize.
+
+---
+
+## Event 7043
+
+**Source:** Service Control Manager
+
+This event indicates that a Windows service encountered an issue during startup or shutdown.
+
+---
+
+## Security Events
+
+The Security log recorded successful security auditing events including:
+
+- Event ID 5061 (Cryptographic Operation)
+- Event ID 4672 (Special Logon)
+- Event ID 5379 (Credential Manager)
+- Event ID 4798 (User Account Management)
+
+These indicate that Windows security auditing is functioning correctly.
+
+---
+
+No evidence of hardware failure or repeated system crashes was identified during this investigation.
 
 ---
 
