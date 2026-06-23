@@ -28,8 +28,8 @@ Throughout this lab I will learn how to:
 
 | Module | Status |
 |---------|--------|
-| Device Manager | 🔄 In Progress |
-| Event Viewer | ⏳ Coming Soon |
+| Device Manager | Completed |
+| Event Viewer | Completed |
 | Windows Services | ⏳ Coming Soon |
 | Task Manager | ⏳ Coming Soon |
 | System Information | ⏳ Coming Soon |
