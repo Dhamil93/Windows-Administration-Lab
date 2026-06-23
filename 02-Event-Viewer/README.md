@@ -93,14 +93,59 @@ No evidence of hardware failure or repeated system crashes was identified during
 
 # Resolution
 
-*(Complete this after the investigation.)*
+The investigation determined that the DistributedCOM errors were isolated timeout events.
+
+No hardware failures or critical operating system issues were detected.
+
+The system continued to operate normally after reviewing the logs.
+
+No corrective action was required.
+
+Recommendation:
+
+Continue monitoring Event Viewer for recurring errors or patterns that may indicate a developing issue.
 
 ---
 
 # Lessons Learned
 
-*(Complete after the investigation.)*
 
+This lab improved my understanding of Windows Event Viewer and how IT Support Engineers investigate operating system events.
+
+Key lessons include:
+
+- Windows records application, security and system events in Event Viewer.
+- Event IDs help identify specific operating system activities.
+- Not every Error event requires immediate remediation.
+- Filtering logs helps administrators quickly identify important events.
+- Security logs provide valuable auditing information.
+---
+
+# Interview Questions
+
+## What is Event Viewer?
+
+Event Viewer is a Windows administrative tool used to monitor and troubleshoot system, application and security events.
+
+---
+
+## What is an Event ID?
+
+An Event ID is a unique number assigned to a Windows event that helps identify a specific activity or issue.
+
+---
+
+## What does Event ID 10010 mean?
+
+Event ID 10010 is a DistributedCOM timeout event indicating that a COM server did not register within the expected time.
+
+It is commonly observed during system startup and is not always indicative of a serious problem.
+
+---
+
+## Why are Security logs important?
+
+Security logs record authentication events, privilege usage and auditing information used to monitor system security.
 ---
 
 # Skills Demonstrated
