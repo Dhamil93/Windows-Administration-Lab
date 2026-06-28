@@ -161,7 +161,26 @@ All services reviewed were operating as expected.
 
 # Resolution
 
-(To be completed after investigation)
+The investigation determined that all reviewed Windows services were operating normally.
+
+The following services were verified:
+
+- Print Spooler
+- DHCP Client
+- DNS Client
+- Windows Update
+- Windows Time
+- Windows Defender Firewall
+
+All services were running successfully and configured with appropriate startup settings.
+
+No service failures, crashes or interruptions were identified.
+
+No corrective action was required.
+
+Recommendation:
+
+Continue monitoring critical Windows services and investigate any future service failures through the Services console and Event Viewer.
 
 ---
 
@@ -235,5 +254,16 @@ services.msc
 ---
 
 # Lessons Learned
+During this lab I gained practical experience working with Windows Services and understanding their role in operating system functionality.
 
-(To be completed after investigation)
+Key lessons learned:
+
+- Windows Services run in the background and support critical system functions.
+- Print Spooler is required for printing operations.
+- DHCP Client is responsible for obtaining IP addresses from network DHCP servers.
+- DNS Client resolves hostnames into IP addresses.
+- Windows Defender Firewall helps secure the system from unauthorized network access.
+- Windows Update is responsible for installing security and feature updates.
+- Windows Time maintains accurate system time synchronization.
+
+This lab improved my understanding of how IT Support Engineers investigate service-related issues and verify service health.
