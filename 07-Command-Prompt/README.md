@@ -15,7 +15,7 @@ This lab demonstrates the use of common networking commands used by IT Support E
 | Ticket ID | CMD-001 |
 | Category | Network Troubleshooting |
 | Priority | Medium |
-| Status | In Progress |
+| Status |Completed |
 | Tool Used | Command Prompt |
 
 ---
