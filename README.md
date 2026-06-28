@@ -32,7 +32,7 @@ Throughout this lab I will learn how to:
 | Event Viewer | Completed |
 | Windows Services | Completed |
 | Task Manager | Completed |
-| System Information | ⏳ Coming Soon |
+| System Information | Completed |
 | Local Users and Groups | ⏳ Coming Soon |
 | BitLocker | ⏳ Coming Soon |
 | Remote Desktop | ⏳ Coming Soon |
