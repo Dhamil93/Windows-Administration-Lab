@@ -2,24 +2,24 @@
 
 A hands-on Windows Administration portfolio demonstrating practical IT Support, Desktop Support and Systems Administration skills.
 
-## Completed Modules
+# Completed Modules
 
-- Device Manager
-- Event Viewer
-- Windows Services
-- Task Manager
-- System Information
-- Local Users and Groups
+- ✅ Device Manager
+- ✅ Event Viewer
+- ✅ Windows Services
+- ✅ Task Manager
+- ✅ System Information
+- ✅ Local Users and Groups
+- ✅ Command Prompt
+- ✅ PowerShell
+- ✅ BitLocker
 
-## Upcoming Modules
+# Upcoming Modules
 
-- Command Prompt
-- PowerShell
-- BitLocker
-- Remote Desktop
-- Windows Security
-- Windows Backup
-- Troubleshooting Scenarios
+- 🔄 Remote Desktop
+- ⏳ Windows Security
+- ⏳ Windows Backup
+- ⏳ Troubleshooting Scenarios
 
 ## Skills Demonstrated
 
