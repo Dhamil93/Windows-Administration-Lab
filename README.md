@@ -31,7 +31,7 @@ Throughout this lab I will learn how to:
 | Device Manager | Completed |
 | Event Viewer | Completed |
 | Windows Services | Completed |
-| Task Manager | ⏳ Coming Soon |
+| Task Manager |  Coming Soon |
 | System Information | ⏳ Coming Soon |
 | Local Users and Groups | ⏳ Coming Soon |
 | BitLocker | ⏳ Coming Soon |
