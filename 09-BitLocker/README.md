@@ -15,7 +15,7 @@ This lab demonstrates how to verify BitLocker status and review drive encryption
 | Ticket ID | BL-001 |
 | Category | Endpoint Security |
 | Priority | Medium |
-| Status | In Progress |
+| Status | Completed |
 | Tool Used | BitLocker |
 
 ---
