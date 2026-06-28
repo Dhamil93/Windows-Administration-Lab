@@ -33,7 +33,7 @@ Throughout this lab I will learn how to:
 | Windows Services | Completed |
 | Task Manager | Completed |
 | System Information | Completed |
-| Local Users and Groups | ⏳ Coming Soon |
+| Local Users and Groups | Completed |
 | BitLocker | ⏳ Coming Soon |
 | Remote Desktop | ⏳ Coming Soon |
 | Windows Backup | ⏳ Coming Soon |
