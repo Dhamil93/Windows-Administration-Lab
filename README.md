@@ -34,6 +34,8 @@ Throughout this lab I will learn how to:
 | Task Manager | Completed |
 | System Information | Completed |
 | Local Users and Groups | Completed |
+| Command-Prompt | ⏳ Coming Soon |
+| PowerShell | ⏳ Coming Soon |
 | BitLocker | ⏳ Coming Soon |
 | Remote Desktop | ⏳ Coming Soon |
 | Windows Backup | ⏳ Coming Soon |
