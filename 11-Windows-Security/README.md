@@ -49,21 +49,54 @@ Stored in the screenshots folder.
 
 ---
 
-# Findings
+## Findings
 
-(To be completed after investigation)
+The Windows Security assessment identified the following:
+
+- Microsoft Defender Antivirus is installed and enabled.
+- No active malware or threats were detected.
+- Security intelligence definitions are up to date.
+- TPM 2.0 is present, enabled, activated, and owned.
+- Secure Boot is enabled.
+- Core Isolation is available.
+- Microsoft Defender Firewall is disabled for all network profiles.
+- Cloud-delivered protection is disabled.
+- Automatic sample submission is disabled.
+- Device encryption is not currently enabled.
+- Smart App Control and Exploit Protection features are available.
 
 ---
 
-# Resolution
+## Resolution
 
-(To be completed after investigation)
+The security configuration was reviewed using Windows Security and PowerShell.
+
+Actions performed:
+
+1. Verified Microsoft Defender Antivirus status.
+2. Confirmed antivirus signatures were current.
+3. Reviewed Protection History for security alerts.
+4. Verified TPM functionality and readiness.
+5. Confirmed Secure Boot status.
+6. Reviewed Firewall configuration.
+7. Reviewed App & Browser Control protections.
+8. Reviewed Microsoft Defender preferences.
+
+No malware was detected during the assessment.
+
+Firewall and cloud-based protection settings were identified as areas requiring remediation to improve endpoint security posture.
 
 ---
 
-# Lessons Learned
+## Lessons Learned
 
-(To be completed after investigation)
+- Windows Security provides a centralized dashboard for endpoint protection.
+- TPM and Secure Boot are important security controls for modern Windows systems.
+- Microsoft Defender Antivirus can remain operational even when other protection features are disabled.
+- Firewall protection should remain enabled whenever possible.
+- Cloud-delivered protection improves malware detection capabilities.
+- PowerShell provides detailed visibility into Defender and TPM configurations.
+- Security reviews should be performed regularly to identify configuration weaknesses.
 
 ---
 
@@ -81,13 +114,30 @@ The security team requested verification that endpoint protection controls were 
 4. Verify TPM availability.
 5. Review endpoint security settings.
 
-### Findings
+---
 
-(To be completed after investigation)
+## Security Audit Notes
 
-### Resolution
+### Positive Findings
 
-(To be completed after investigation)
+- Microsoft Defender Antivirus Enabled
+- No Active Threats Detected
+- Security Definitions Up To Date
+- TPM Enabled And Operational
+- Secure Boot Enabled
+
+### Risks Identified
+
+- Microsoft Defender Firewall Disabled
+- Cloud-Delivered Protection Disabled
+- Automatic Sample Submission Disabled
+- Device Encryption Not Enabled
+
+### Risk Level
+
+Medium
+
+The system has core security protections enabled, but several recommended Microsoft Defender security controls are disabled and should be reviewed.
 
 ---
 
@@ -130,3 +180,35 @@ Get-Tpm
 ## Why is Windows Security important?
 
 It provides protection against malware, ransomware, phishing, unauthorized access and security threats.
+
+---
+
+## SOC Analyst Talking Points
+
+During this lab I performed a Windows endpoint security assessment using Microsoft Defender Security Center and PowerShell.
+
+Tasks completed:
+
+- Verified antivirus protection status.
+- Reviewed endpoint protection history.
+- Assessed firewall configuration.
+- Validated TPM readiness.
+- Confirmed Secure Boot configuration.
+- Reviewed Defender preferences and security settings.
+- Identified security gaps and documented remediation recommendations.
+
+Tools Used:
+
+- Windows Security
+- Microsoft Defender
+- PowerShell
+- TPM Management
+- Secure Boot Verification
+
+Skills Demonstrated:
+
+- Endpoint Security
+- Security Monitoring
+- Security Assessment
+- Windows Administration
+- Technical Documentation
