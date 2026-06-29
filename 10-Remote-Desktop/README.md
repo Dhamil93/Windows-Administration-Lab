@@ -15,7 +15,7 @@ This lab demonstrates how to review Remote Desktop settings and verify remote ac
 | Ticket ID | RDP-001 |
 | Category | Remote Access |
 | Priority | Medium |
-| Status | In Progress |
+| Status | Completed |
 | Tool Used | Remote Desktop |
 
 ---
