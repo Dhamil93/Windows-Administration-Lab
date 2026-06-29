@@ -12,7 +12,7 @@ A hands-on Windows Administration portfolio demonstrating practical IT Support, 
 ✅ PowerShell
 ✅ BitLocker
 ✅ Remote Desktop
-🔄 Windows Security
+✅ Windows Security
 ⏳ Windows Backup
 ⏳ Troubleshooting Scenarios
 
