@@ -18,7 +18,6 @@ A hands-on Windows Administration portfolio demonstrating practical IT Support, 
 | Windows Backup | ✅ Completed |
 | Troubleshooting Scenarios | ✅ Completed |
 
-## Skills Demonstrated
 
 ## Skills Demonstrated
 
